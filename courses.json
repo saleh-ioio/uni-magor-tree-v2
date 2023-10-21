@@ -1,0 +1,284 @@
+{
+    "credits": 130,
+    "courses": [
+        {
+            "course_code": "NGN 110",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "MTH 103",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-SCI 1",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-CORE 1",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "WRI 101",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 120",
+            "prerequisites": [
+                "NGN 110"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "MTH 104",
+            "prerequisites": [
+                "MTH 103"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-SCI 2",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-CORE 2",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "WRI 102",
+            "prerequisites": [
+                "WRI 101"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "COE 221",
+            "prerequisites": [
+                "CMP 120"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 220",
+            "prerequisites": [
+                "CMP 120"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "MTH 221",
+            "prerequisites": [
+                "MTH 104"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "MTH 213",
+            "prerequisites": [
+                "MTH 103"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "ENG 204",
+            "prerequisites": [
+                "WRI 102"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "STA 201",
+            "prerequisites": [
+                "MTH 103"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "IEN 301",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 305",
+            "prerequisites": [
+                "CMP 220"
+            ],
+            "corequisites": [
+                "MTH 213"
+            ]
+        },
+        {
+            "course_code": "CMP 256",
+            "prerequisites": [
+                "CMP 220"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 235",
+            "prerequisites": [
+                "WRI 102"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "COE 251",
+            "prerequisites": [
+                "CMP 120",
+                "COE 221"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 340",
+            "prerequisites": [
+                "STA 201",
+                "CMP 305"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 320",
+            "prerequisites": [
+                "CMP 305"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-SCI 3",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "ENG 207",
+            "prerequisites": [
+                "ENG 204"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 310",
+            "prerequisites": [
+                "COE 251",
+                "CMP 305"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "COE 371",
+            "prerequisites": [
+                "COE 221",
+                "MTH 104"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 333",
+            "prerequisites": [
+                "CMP 305"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 321",
+            "prerequisites": [
+                "CMP 305",
+                "CMP 256"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "MTH 343",
+            "prerequisites": [
+                "MTH 221"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-CORE 3",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "MJE XXX 1",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "MJE XXX 2",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "COE 420",
+            "prerequisites": [
+                "CMP 305",
+                "CMP 256"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 490",
+            "prerequisites": [
+                "CMP 235",
+                "ENG 207"
+            ],
+            "corequisites": [
+                "CMP 420"
+            ]
+        },
+        {
+            "course_code": "FRE XXX 1",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "FRE XXX 2",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-CORE 4",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "MJE XXX 3",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "FRE XXX 3",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 491",
+            "prerequisites": [
+                "CMP 490"
+            ],
+            "corequisites": []
+        },
+        {
+            "course_code": "MJE XXX 4",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "GER-CORE 5",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        {
+            "course_code": "CMP 397",
+            "prerequisites": [],
+            "corequisites": []
+        }
+    ]
+}

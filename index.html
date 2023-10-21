@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/jointjs/dist/joint.css" />
+</head>
+<body>
+    <div id="myholder"></div>
+
+    <!-- dependencies -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/lodash/lodash.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <script src="node_modules/jointjs/dist/joint.js"></script>
+
+    <!-- code -->
+    <script type="text/javascript">
+
+        var namespace = joint.shapes;
+
+        var graph = new joint.dia.Graph({}, { cellNamespace: namespace });
+
+        var paper = new joint.dia.Paper({
+            el: document.getElementById('myholder'),
+            model: graph,
+            width: 1500,
+            height: 1500,
+            gridSize: 1,
+            cellViewNamespace: namespace
+        });
+
+        // var rect = new joint.shapes.standard.Rectangle();
+        // rect.position(500, 30);
+        // rect.position()
+        // rect.resize(100, 40);
+        // rect.attr({
+        //     body: {
+        //         fill: 'red'
+        //     },
+        //     label: {
+        //         text: 'Hello',
+        //         fill: 'white'
+        //     },
+            
+        // });
+        // rect.addTo(graph);
+
+        // var rect2 = rect.clone();
+        // rect2.translate(130, 0);
+        // rect2.attr('label/text', 'World!');
+        // rect2.addTo(graph);
+
+        // var rect3 = rect2.clone();
+        // rect3.translate(130,0 );
+        // rect3.attr('label/text', 'World!');
+        // rect3.addTo(graph);
+
+        // var link = new joint.shapes.standard.Link();
+        // var link2 = new joint.shapes.standard.Link();
+        // link.source(rect);
+        // link.target(rect2);
+
+        // link2.source(rect2);
+        // link2.target(rect3)
+
+        // link2.addTo(graph)
+        // link.addTo(graph);
+
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
